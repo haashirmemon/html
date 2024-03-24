@@ -1,0 +1,79 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: rgb(0, 0, 0);
+
+}
+
+.pimg1 {
+    background-image: url(./f15deaa797aaa5901d514fde36a51ea9.jpg);
+    min-height: 100%;
+
+}
+
+.pimg2 {
+    background-image: url(./pexels-pixabay-36478.jpg);
+    min-height: 400px;
+
+}
+
+.pimg3 {
+    background-image: url(./istockphoto-517188688-612x612.jpg);
+    min-height: 400px;
+
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    /* margin-left: 45%;
+    background-color: rgb(242, 242, 0); */
+    width: 100%;
+    text-align: center;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbg {
+    background-color: gray;
+    font-size: 80px;
+    padding: 20px;
+
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.sectionlight {
+    background-color: rgb(255, 255, 255);
+    color: rgb(80, 75, 75);
+}
+
+p {
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+.sectiondark {
+    background-color: gray;
+    color: rgb(224, 221, 221);
+}
